@@ -1,0 +1,48 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+/* base CSS */
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #702316;
+  background: #fff;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 70%;
+}
+header {
+  height: 300px;
+  padding: 20px 0 70px 0;
+}
+
+h1 {
+
+
+  padding-top: 0;
+  padding-bottom: 5px;
+  border-bottom: none;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3.2em;
+  text-transform: uppercase;
+
+
+  background : #325050;
+  color : #fff;
+}
+h1::before {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  content: "";
+  width: 80px;
+  height: 80px;
+  margin: -20px 20px 0 0;
+}
